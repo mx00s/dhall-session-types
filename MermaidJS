@@ -1,0 +1,1 @@
+env:DHALL_MERMAID_JS ? ./../../dhall-mermaid-js/sequence-diagram/package.dhall

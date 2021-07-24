@@ -1,0 +1,2 @@
+{ SimpleSession = ./SimpleSession/package.dhall
+}
