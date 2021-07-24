@@ -1,1 +1,2 @@
-env:DHALL_MERMAID_JS ? ./../../dhall-mermaid-js/sequence-diagram/package.dhall
+  env:DHALL_MERMAID_JS
+? https://raw.githubusercontent.com/mx00s/dhall-mermaid-js/sequence-diagram/package.dhall
