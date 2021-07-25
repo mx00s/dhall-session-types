@@ -5,4 +5,5 @@
 , handle = ./handle
 , receive = ./receive
 , send = ./send
+, toMermaid = ./toMermaid
 }

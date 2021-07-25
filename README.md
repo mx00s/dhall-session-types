@@ -28,3 +28,9 @@ There's also a `./SimpleSession/toJSON` function to convert `SimpleSession`s int
 ```bash
 dhall text <<< '(./Prelude).JSON.render (./SimpleSession/toJSON ./SimpleSession/user-atm.dhall)'
 ```
+
+Simple sessions can also be converted to a Dhall representation of [mermaid-js' sequence diagrams](https://mermaid-js.github.io/mermaid/#/sequenceDiagram).
+
+```bash
+dhall text <<< '(./MermaidJS).SequenceDiagram.render (./SimpleSession/toMermaid ./SimpleSession/user-atm.dhall)'
+```
